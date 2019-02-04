@@ -1,0 +1,672 @@
+/* line 1, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+}
+
+/* line 16, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 20, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.head {
+  background-image: url(../img/group-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 25, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.head .content_h {
+  background-image: url(../img/layer-1.png);
+  height: 90%;
+}
+
+/* line 30, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 33, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head1::before {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 38px;
+  content: "";
+  width: 135px;
+  height: 65px;
+  background-image: url(../img/logo.png);
+}
+
+/* line 43, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.nav {
+  padding-top: 60px;
+  display: flex;
+}
+
+/* line 46, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.nav .nav_a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #1b1b1b;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+}
+
+/* line 56, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.nav .nav_a:hover {
+  border-radius: 5px;
+  background-color: #d03958;
+  color: #ffffff;
+}
+
+/* line 64, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 68, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_l {
+  max-width: 49.5%;
+  margin-top: 80px;
+}
+
+/* line 72, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .l_h {
+  color: #161616;
+  letter-spacing: -1.8px;
+  font-family: 'Montserrat-Bold';
+  font-size: 90px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+/* line 79, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .l_h .span {
+  color: #d03958;
+}
+
+/* line 83, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .l_t {
+  color: #161616;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  margin-top: 47px;
+}
+
+/* line 92, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r {
+  position: relative;
+  top: 80px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d03958;
+  width: 40%;
+}
+
+/* line 102, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .r_t {
+  margin-top: 31px;
+  margin-bottom: 37px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+}
+
+/* line 111, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .r_input {
+  width: 88.25%;
+}
+
+/* line 114, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .Full {
+  margin-bottom: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 0 18px 19px;
+  width: 107.3%;
+  color: #b5b5b5;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+}
+
+/* line 126, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .Check {
+  margin-top: 11px;
+  color: #ffffff;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+}
+
+/* line 134, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .checkbox {
+  display: none;
+}
+
+/* line 137, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .checkbox-custom {
+  cursor: pointer;
+  position: relative;
+  width: 19px;
+  height: 18px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 147, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .checkbox:checked + .checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(../img/galka.png);
+  background-size: 100%;
+}
+
+/* line 160, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .s_check {
+  display: inline-block;
+  margin-left: 21px;
+  vertical-align: middle;
+}
+
+/* line 165, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .r_but {
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+/* line 170, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.wrap_head2 .head2_r .Full_Submit {
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  padding: 15px 0px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* line 185, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_h {
+  margin-top: 40px;
+  color: #161616;
+  font-family: 'couturebold';
+  font-size: 50px;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/* line 193, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_h .span {
+  color: #d03958;
+}
+
+/* line 197, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i {
+  margin-top: 96px;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+  color: #161616;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+/* line 208, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i .block {
+  text-align: center;
+  width: 16.8%;
+}
+
+/* line 212, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i .block::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+}
+
+/* line 220, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i .block1::before {
+  width: 163px;
+  height: 144px;
+  background-image: url(../img/p2-1.png);
+}
+
+/* line 225, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i .block2::before {
+  width: 137px;
+  height: 150px;
+  background-image: url(../img/p2_2.png);
+}
+
+/* line 230, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i .block3::before {
+  width: 116px;
+  height: 150px;
+  background-size: contain;
+  background-image: url(../img/p2_3.png);
+}
+
+/* line 236, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p2_i .block4::before {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/p2_4.png);
+}
+
+/* line 243, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p3 {
+  background-color: #d03958;
+}
+
+/* line 246, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p3_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+}
+
+/* line 252, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p3_wrap .p3_t {
+  width: 60%;
+  color: #ffffff;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+/* line 261, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p3_wrap .but_l {
+  display: block;
+  text-decoration: none;
+  color: #161616;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  padding: 19px 76px 18px 65px;
+  background-color: #e3d5b8;
+  border-radius: 5px;
+  margin-bottom: 28px;
+}
+
+/* line 277, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4 {
+  background-color: #e3d5b8;
+}
+
+/* line 279, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_wrap {
+  padding-top: 65px;
+  text-align: center;
+}
+
+/* line 283, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_h {
+  color: #1f1f1f;
+  font-family: 'Montserrat-Bold';
+  font-size: 50px;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/* line 291, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_popular {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 90px solid #b4a993;
+  border-right: 90px solid transparent;
+}
+
+/* line 297, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_popular_t {
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: 50px;
+  left: 10px;
+  color: #1f1f1f;
+  font-family: "PTSerifRegular";
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: -0.32px;
+}
+
+/* line 309, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_b {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47px;
+  color: #161616;
+  font-family: "PTSerifRegular";
+}
+
+/* line 315, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_block {
+  background-color: #fff;
+  width: 31.8%;
+  border-radius: 3px;
+  position: relative;
+  top: 10px;
+}
+
+/* line 322, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_b_h {
+  margin-top: 35px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+}
+
+/* line 328, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_b_m {
+  margin-top: 40px;
+  color: #d03958;
+  font-family: 'Montserrat-Bold';
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1.2px;
+}
+
+/* line 337, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_b_l {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+/* line 344, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_link {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* line 347, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_link:hover .link {
+  background-color: #d03958;
+  color: #fff;
+}
+
+/* line 351, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p4_link .link {
+  display: inline-block;
+  text-decoration: none;
+  color: #161616;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  padding: 13px 83px 10px 79px;
+  background-color: #e3d5b8;
+  border-radius: 5px;
+}
+
+/* line 367, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_wrap {
+  padding-top: 134px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 373, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 44%;
+}
+
+/* line 378, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_h {
+  text-align: center;
+  margin: 0 auto;
+  color: #1f1f1f;
+  font-family: 'Montserrat-Bold';
+  font-size: 50px;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/* line 388, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block {
+  min-height: 135px;
+  position: relative;
+  padding-left: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* line 394, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block:last-child {
+  background-color: #e3d5b8;
+}
+
+/* line 397, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block:hover {
+  background-color: #e3d5b8;
+}
+
+/* line 400, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block_t1 {
+  max-width: 84%;
+  margin-top: 20px;
+  color: #161616;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+/* line 408, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block_t1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  background-image: url(../img/p5/1.png);
+  right: -55px;
+  bottom: 28px;
+}
+
+/* line 419, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block .t2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  background-image: url(../img/p5/2.png);
+  right: -55px;
+  bottom: 14px;
+}
+
+/* line 430, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_l_block_t2 {
+  margin: 15px 0;
+  color: #d03958;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+/* line 440, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r {
+  width: 38.5%;
+}
+
+/* line 442, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r_h {
+  text-align: center;
+  color: #d03958;
+  font-family: 'Montserrat-Bold';
+  font-size: 50px;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+/* line 451, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r_blockim {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 457, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r_img {
+  margin-top: 30px;
+  width: 27.27%;
+  padding-bottom: 27.27%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 464, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r .img1 {
+  margin-top: 0;
+  background-image: url(../img/p5/3.png);
+}
+
+/* line 468, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r .img2 {
+  margin-top: 0;
+  background-image: url(../img/p5/4.png);
+}
+
+/* line 472, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r .img3 {
+  margin-top: 0;
+  background-image: url(../img/p5/5.png);
+}
+
+/* line 476, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r .img4 {
+  background-image: url(../img/p5/6.png);
+}
+
+/* line 479, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r .img5 {
+  background-image: url(../img/p5/7.png);
+}
+
+/* line 482, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_r .img6 {
+  background-image: url(../img/p5/8.png);
+}
+
+/* line 486, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_link {
+  text-align: center;
+  margin-top: 45px;
+}
+
+/* line 489, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p5_link .link {
+  display: block;
+  color: #d03958;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+}
+
+/* line 501, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p6 {
+  background-color: #161616;
+}
+
+/* line 503, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p6_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/* line 507, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p6_wrap::after {
+  margin-top: 70px;
+  content: "";
+  display: block;
+  width: 98px;
+  height: 46px;
+  background-image: url(../img/logo-2.png);
+}
+
+/* line 516, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p6_text {
+  padding: 78px 0 83px 0;
+  color: #ffffff;
+  font-family: "PTSerifRegular";
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+}
+
+/* line 523, C:/Users/User/Desktop/Hillel/DZ10/scss/style.scss */
+.p6_text .span {
+  color: #d03958;
+}
+
+/*# sourceMappingURL=../css/style.map */
