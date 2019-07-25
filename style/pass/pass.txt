@@ -1,1 +1,2 @@
-{login:admin, pass:admin}
+login:admin
+pass:admin
